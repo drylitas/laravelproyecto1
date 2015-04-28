@@ -14,7 +14,7 @@
         <td>{{ $user->type }}</td>
         <td>
             <a href="{{ route('admin.users.edit', $user) }}">Editar</a>
-            <a href="#" class="btn-delete">Eliminar</a>
+            <a href="#!" class="btn-delete">Eliminar</a>
         </td>                            
     </tr>
     @endforeach
